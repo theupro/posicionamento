@@ -1,0 +1,41 @@
+html, body, h1 {
+
+    margin:0;
+    padding:0;
+    }
+    html{
+        background: rgb(254,255,216);
+    
+    }
+    article, aside, section, header, footer, nav{
+    display:block;
+    }
+     
+    
+    #principal {
+    background-color: antiquewhite;
+    width: 660px;
+    box-shadow: 0 0 10px #666;
+    margin: 10px auto;
+    padding: 10px;
+    }
+    #conteudo {
+        background-color: bisque;
+        border: 1px dotted #666666;
+        margin-top: 20px;
+        position: relative;
+        height: 450px;
+    }
+    section {
+        width: 200px;
+    
+    }
+    .janela1 {
+background-color: rgb(167, 61, 61);
+padding: 10px;
+position: absolute;
+top: 50px;
+left: 50px;    
+height: 300px;
+overflow: scroll;
+}
